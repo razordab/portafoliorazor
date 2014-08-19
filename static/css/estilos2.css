@@ -1,0 +1,70 @@
+.u-title{
+	color: red;
+}
+
+.Header{
+		display: inline-block;
+		position: relative;
+		/*top: 20px;
+		right: ;
+		bottom: ;
+		left: 20px;*/
+	/*	margin-left: 20px;*/
+		background: gray;
+		/*display: block; la caja usa toda la pantalla */ 
+		/*display: inline-block; deja de usar toda la pantalla */ 
+		/*display: none; la caja deja de verse*/
+}
+
+.Header-profileSpan {
+	font-weight: bold;
+	background: white;
+
+	/*top: 20px;
+	left: 20px;*/
+
+	/*position: static; es quietica y clasica
+	position relative: se puede mover;
+	position absolute: se mueve sin respetar a nadie rompe el modelo de caja
+	position fixed: se queda quieto aunque haya scroll tambien rompe el modelo de caja;
+	
+	z-index: es el numero de apilacion de las cajas, son practicamente capas. mayor numero, mas arriba esta
+	*/
+}
+
+.MainMenu{
+	position: fixed;
+	background: green;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 2;
+
+}
+
+.mainMenu-list{
+	position: relative;
+	display: inline-block;
+
+}
+
+.mainMenu-item {
+	position: relative;
+	display: inline-block;
+}
+
+.Profile{
+	display: inline-block;
+	background: lightgray;
+	position: relative;
+
+}
+
+
+.Work{
+
+}
+
+.Footer{
+
+}

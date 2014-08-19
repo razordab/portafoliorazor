@@ -1,0 +1,197 @@
+html{
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+.EnConstruccion{
+	display: block;
+	position: fixed;
+	z-index: 3;
+	color: white;
+	padding: 1em;
+	background-color: gray;
+	opacity: .9;	
+	left:0;
+	right: 0;
+	margin-top: 30em;
+	text-align: right;
+}
+
+.EnConstruccion-osito{
+	display: inline-block;
+	position: fixed;
+	left: 1em;
+	top: 25em;
+
+
+}
+
+.MainMenu{
+    background-color: gray;
+    height: 2em;
+    left:0;
+    position: fixed;
+    right: 0;
+    text-align: center;
+    top:0;
+    z-index: 2;
+}
+
+.MainMenu-list{
+    vertical-align: top;
+    margin:0;
+    padding: 0;
+}
+
+.MainMenu-item{
+    display: inline-block;
+}
+
+.MainMenu-item:hover{
+	 background-color: black;
+	 -webkit-transition: 1s ease-out;
+}
+
+.MainMenu-link{
+    color: white;
+    font-size: 1em;
+    line-height: 30px;
+    margin: 0 0.8em;	
+    text-decoration: none;
+}
+
+.Header{
+	position: relative;
+	background-image: url(../images/portada-08.jpg);
+	background-position: center;
+	background-size: cover; 
+	background-repeat: no-repeat;	
+	padding-top: 2em;
+	padding-bottom: 2em;	
+	right: 0;
+	left:0;
+	top:2em;
+	margin: 0;		
+	z-index: 0;
+}
+
+.Header-imageContainer{
+	display: inline-block;
+	position: relative;
+	left: 2em;
+	top: 3em;
+}
+
+.Header-image{
+	border:5px solid white;
+
+	/*border:5px (el tamaño) solid (si es solido) white (color); */
+	border-radius: 50%;
+		box-shadow: 0px -2px 15px #000;
+	-webkit-transition: 1s ease-out;
+
+
+}
+.Header-image:hover{
+
+	border-color: black;
+	/*-webkit-transition: 1s ease-out;
+*/
+}
+
+.Header-imageDescription{	
+	text-align: center;
+	font-weight: bold;
+	display: inline-block;
+	position: relative;	
+	margin-top: 1em;
+	font-size: 35px;
+	
+}
+
+.Header-links{
+	display: inline-block;
+	position:relative;
+	margin-left: 2em;
+	margin-top: 1em;
+	vertical-align: top;
+	width:350px;	
+}
+
+.Header-link{	
+	display: inline-block;
+	position: relative;
+	margin-top: 2em;
+	opacity: 1;
+
+}
+
+.Header-link:hover{
+	opacity: .5;
+	-webkit-filter: blur(1px);
+}
+
+.Header-profile{
+	text-align: left;
+	color: black;
+	font-size: 15px;
+	display: inline-block;
+	position: relative;
+	vertical-align: top;	
+
+}
+
+.Profile {
+	position: relative;
+	margin-top: 2em;
+	text-align: center;
+	z-index: 1;
+	padding-top: 4em;
+	padding-bottom: 2em;	
+	box-shadow: 0px -2px 15px gray;
+	background: lightgray;	
+}
+
+
+.Profile-title {
+	display: block;
+	color: white;
+	text-align: right;	
+	font-size: 20px;
+	position: absolute;
+	top: 0em;
+	right: 8em;
+	margin-bottom: 1em;
+}
+
+.Profile-logo{
+	display: inline-block;
+	position: absolute;
+	vertical-align: left;	
+	right: 0.6em;
+	top:-3.5em;
+}
+.Profile-section{
+	display: inline-block;
+	position: relative;
+	margin: 0 0.2em 0 0.2em;
+	color: white;
+}
+
+.Profile-image{
+	border-radius: 10px;
+	width: 300px;
+	height: 150px;
+}
+.Profile-image:hover{
+	-webkit-filter: brightness(0.6);
+}
+
+.Profile-description{
+	position: absolute;
+	display: inline-block;
+	left: 2em;
+	top: 5.3em;
+}
+
+
